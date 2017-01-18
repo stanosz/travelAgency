@@ -1,7 +1,0 @@
-package model;
-
-public class Historical implements TouristAttraction{
-	
-	private String name;
-
-}
