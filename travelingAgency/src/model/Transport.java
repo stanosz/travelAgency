@@ -1,5 +1,5 @@
 package model;
 
-public class Transport {
+public interface Transport {
 
 }
