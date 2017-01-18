@@ -1,10 +1,5 @@
 package model;
 
 public class Offer {
-	
-	public int CalculeComfort(){
-		return 0;
-	}
-	
 
 }
