@@ -1,0 +1,11 @@
+package model;
+
+public class Entertainment implements TouristAttraction {
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

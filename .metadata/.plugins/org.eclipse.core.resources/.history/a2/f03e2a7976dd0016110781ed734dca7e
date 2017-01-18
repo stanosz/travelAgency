@@ -1,0 +1,14 @@
+package persistance;
+import java.util.List;
+import java.util.ArrayList;
+
+public class JdbcPersistence {
+	public void prepareConnection(){
+		
+	}
+	
+	public List<String> allExcursion(){
+		return new List;
+	}
+
+}
