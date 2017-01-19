@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	lang="#{localeBean.language}">
+<f:view locale="#{localeBean.locale}" />
+<h:head>
+	
+</h:head>
+<h:body id="www-url-cz">
+	
+
+	<h2>Welcom to Bali Travel Agency </h2>
+	<h:panelGroup>
+		
+	</h:panelGroup>
+	<fieldset>
+		<legend>Please Fill the form </legend>
+		<h:form>
+               Search  by Keyword  : 
+                <h:inputText value="#{loginBean.login}" />
+			<br />
+			Price  : 
+                <h:inputText value="#{loginBean.login}" />
+			
+			
+		</h:form>
+	<h:form>
+        Scale of Quality
+        
+      <h:selectOneMenu value="#{userData.data}">
+            <f:selectItem itemValue="1" itemLabel="★" />
+            <f:selectItem itemValue="2" itemLabel="★★" />
+            <f:selectItem itemValue="3" itemLabel="★★★" />
+            <f:selectItem itemValue="4" itemLabel="★★★★" />
+            <f:selectItem itemValue="5" itemLabel="★★★★★" />				
+       </h:selectOneMenu>	
+         <h:commandButton value="Submit" action="result" />
+	</h:form>
+	</fieldset>
+
+	
+	<p />
+	<h:form>
+		<h:commandButton value="Quit"
+			actionListener="NULL" immediate="true" />
+	</h:form>
+</h:body>
+</html>
